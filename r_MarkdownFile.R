@@ -1,16 +1,30 @@
-# The Data Scientist’s Toolbox Project
+---
+title: "Toolbox Project"
+author: "Joe M"
+date: "11/7/2020"
+output: html_document
+---
 
-The assignment is outlined as: 
-  "This easy project is your chance to demonstrate that you’ve done the basic software setup 
- (*R*, *RStudio*, and *GitHub*) that will get you through the rest of the Data Science Specialization."
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-## Course Overview
-This course was aimed at giving direction to students to setup tools that can be used for **data science**.
-These tools will assist a student with completing the "*Data Science Specialization*" prepared by John Hopkins University.
+## R Markdown
 
-## Project outline
-Created the *GitHub* repo for this project: [Project Repo]( https://github.com/Hermitjoe/ToolboxCourse-Project)
-Second created an *RStudio* Project and connected the project to the repository.
-After connecting to the repository, a new project was created to facilitate the **R Markdown** Document.
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-### I feel these steps should be enough to meet the projects outline.
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
