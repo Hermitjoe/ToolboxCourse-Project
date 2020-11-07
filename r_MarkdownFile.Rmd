@@ -17,10 +17,11 @@ This course was aimed at giving direction to students to setup tools that can be
 These tools will assist a student with completing the "*Data Science Specialization*" prepared by John Hopkins University.
 
 ## Project outline
-Created the *GitHub* repo for this project: [Project Repo]( https://github.com/Hermitjoe/ToolboxCourse-Project)
-Second created an *RStudio* Project and connected the project to the repository.
+Created the *GitHub* repo for this project: [Project Repo]( https://github.com/Hermitjoe/ToolboxCourse-Project)  
+Second created an *RStudio* Project and connected the project to the repository.  
 After connecting to the repository, a new project was created to facilitate the **R Markdown** Document.
 
-### I feel these steps should be enough to meet the projects outline.
+#### Note: initial file was a .r instead of a .Rmd, so the form did not work properly. 
+#### Both files will be in the reporsitory. This note is left to clear up any confusion.
 
-### Note: initial file was a .r instead of a .Rmd, so the form did not work properly. 
+### I feel these steps should be enough to meet the projects outline.
